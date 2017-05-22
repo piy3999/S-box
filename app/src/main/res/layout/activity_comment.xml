@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/comment_list"></ListView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="bottom"
+
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_height="wrap_content"
+       >
+        <EditText
+            android:layout_width="300dp"
+            android:id="@+id/e"
+            android:layout_height="wrap_content"
+            android:hint="Add a suggestion"
+            android:textColorHint="@color/basicblack"
+
+            />
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/neon"
+            android:text="send"
+            android:textColor="@color/basicblack" />
+
+    </LinearLayout>
+    </LinearLayout>

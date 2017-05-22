@@ -1,0 +1,10 @@
+<resources>
+    <string name="facebook_app_id">1443205849044880</string>
+    <string name="app_name">S-box</string>
+    <string name="description">We always have the best SUGGESTION for your needs !</string>
+
+    <string name="title_activity_explore">Explore</string>
+    <string name="title_activity_food">Food</string>
+    <string name="LET">Let Box Understand Your Needs</string>
+
+</resources>

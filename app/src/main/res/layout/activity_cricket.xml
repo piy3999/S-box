@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cricket"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/basicblack"
+    tools:context="com.example.piyusharyan.s_box.Cricket"
+    >
+
+    <!--Let Box-->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/ll0"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/white"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/cricket"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#af000000"
+            >
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="@string/LET"
+            android:textColor="#eeeeee"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            />
+
+
+
+
+    </FrameLayout>
+
+    <!--GAP-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:orientation="horizontal"
+        android:id="@+id/ll00"
+        android:layout_below="@id/ll0"
+        >
+
+    </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/ll1"
+       android:orientation="horizontal"
+       android:layout_below="@id/ll00"
+       >
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/edit"
+        android:textColor="#fff"
+        android:hint="Search Your Query"
+        android:textColorHint="@color/white"
+        android:background="@color/editTextColor"
+        />
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:id="@+id/ll2"
+        android:layout_below="@id/ll1"
+        android:orientation="horizontal"
+        >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll2"
+        android:orientation="horizontal"
+        android:id="@+id/ll3"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="GO"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:onClick="funda"
+            android:background="@color/neon"
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
